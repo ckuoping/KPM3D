@@ -1,0 +1,59 @@
+<div class="uiux-design">
+    <div class="description">
+        <div  class="text-center des-title">
+            Interface Design & UIUX
+        </div>
+        <div class="text-center des-intro">
+          <p>
+            I am good at translating ideas into wireframes and mockups that lead to intuitive UX. At Moldex3D, my UIUX covers Material Wizard, Moldex3D Setup Wizard, Process Wizard and other Studio enhancements. 
+          </p>
+          <p>Tools: Figma | AdobeXD</p>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="row">
+          <ng-container *ngFor="let proj of project; let i = index">
+            <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center mb-3">
+              <div class="card uiux-proj" >
+                  <img class="card-img-top" [src]="proj.image" alt="Card image cap">
+                  <div class="card-body">
+                    <h3 class="card-title uiux-proj-title">{{proj.title}}</h3>
+                    <p class="card-text uiux-proj-txt">{{proj.description}}</p>
+                    
+                      <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal" (click)="showDialog(i)">
+                        {{proj.btn}}
+                      </button>
+                  </div>
+                </div>
+            </div>
+          </ng-container>
+          </div>
+      </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" data-bs-backdrop="false"  aria-labelledby="exampleModalLabel" aria-hidden="false">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title modal-proj-title" id="exampleModalLabel">{{dialogInfo.title}}</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img width="100%" [src]="dialogInfo.photo" alt="">
+        <div class="modal-proj-des">
+          {{dialogInfo.description}}
+        </div>
+        <mat-chip-list aria-label="Fish selection">
+          <ng-container *ngFor="let chip of dialogInfo.chips">
+            <mat-chip>{{chip}}</mat-chip>
+          </ng-container>
+        </mat-chip-list>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>

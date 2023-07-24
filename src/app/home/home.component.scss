@@ -1,0 +1,44 @@
+.home{
+    position: relative;
+    width: 100%;
+    height: calc( 100vh - 64px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    .home-wrapper{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 1.5rem;
+    }
+
+    .home-txt{
+        .head{
+            font-size: 42px;
+            line-height:42px;
+            font-weight: 900;
+            padding: 50px 0 20px 0;
+        }
+        .job{
+            font-size: 20px;
+            color: #7f7f7f;
+            font-weight: 500;
+            padding: 10px 0 20px 0;
+        }
+        .intro{
+            color: #7f7f7f;
+            width: 450px;
+        }
+    }
+
+    .home-img{
+        img{
+            -webkit-filter:saturate(1.2);
+        }
+    }
+
+
+}

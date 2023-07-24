@@ -1,0 +1,80 @@
+<div class="user-research">
+    <div class="description">
+        <div class="des-title">
+            User Research
+        </div>
+        <div class="des-intro" >
+          <p>At Moldex3D, I conduct user research on CAD(Computer-aided Design) and CAE(Computer-aided Engineering) users. They are distributed across five major business regions globally (North America, Europe, East Asia, China, and Taiwan).</p>
+          <p>Through surveys, interviews, and qualitative analysis, I pinpoint pain points experienced by users and further deliver functional specifications for development.</p>
+          
+        </div>
+    </div>
+    <mat-stepper  #stepper class="steps" orientation="vertical" >
+        <mat-step >
+          <ng-template matStepLabel>Survey</ng-template>
+          <ng-template matStepContent>
+            <div class="stp-wrap">
+                <img height="250px" src="assets/images/user-research-1.avif" alt="">
+              <p>Survey helps to identify primary pain points and user profiles of customers of Moldex3D Studio. We designed online questionnaires and sent them to customers of Moldex3D's. Based on their responses, we are able to summarize the most critical features that users from different countries care regarding the software.</p>
+            </div>
+
+            <button mat-button matStepperNext>Next</button>
+          </ng-template>
+        </mat-step>
+        <mat-step >
+          <ng-template matStepLabel>Interview</ng-template>
+          <ng-template matStepContent>
+            
+              <div class="stp-wrap">
+                <img height="250px" src="assets/images/user-research-2.avif" alt="">
+                <p>To gain deeper insights into customers' usage behavior of Moldex3D Studio, we conduct user interviews and observe their usage processes. By doing so, we are able to define and collect their challenges while using our products. We have conducted either in-person or online interviews, depending on the location of the customers.</p>
+              </div>
+             
+              <button mat-button matStepperPrevious>Back</button>
+              <button mat-button matStepperNext>Next</button>
+        
+
+          </ng-template>
+        </mat-step>
+        <mat-step >
+            <ng-template matStepLabel>Data Analysis</ng-template>
+            <ng-template matStepContent>
+              <div class="stp-wrap">
+                <div>
+                  <img height="250px" src="assets/images/user-research-3.avif" alt="">
+                  <img height="200px" src="assets/images/user-research-5.avif" alt="">
+                </div>
+               
+                <p>Based on results of surveys and interview, I am skilled at organizing customers' workflow of using Moldex3D Studio. Flow Analysis helps understand customers' touchpoints and relevant stakeholders, enabling more comprehensive consideration for future design and improvement of Moldex3D Studio.
+                  </p>
+              </div>
+
+              <button mat-button matStepperPrevious>Back</button>
+              <button mat-button matStepperNext>Next</button>
+            </ng-template>
+        </mat-step>
+        <mat-step >
+            <ng-template matStepLabel>Customer Journey</ng-template>
+            <ng-template matStepContent>
+              <div class="stp-wrap" >
+                <img height="250px" src="assets/images/user-research-4.jpg" alt="">
+              <p>To complete the customer journey map, the user's usage process will be divided into several stages, and each stage will be analyzed to study the user's actions, intentions, challenges, emotions, and opportunities. Next, we will focus on the most crucial stages and assess the possibility of realizing opportunities within those stages.</p>
+              </div>
+
+              <button mat-button matStepperPrevious>Back</button>
+              <button mat-button matStepperNext>Next</button>
+            </ng-template>
+        </mat-step>
+        <mat-step >
+          <ng-template matStepLabel>Action Plan</ng-template>
+          <div class="stp-wrap">
+            <img height="300px" src="assets/images/user-research-6.avif" alt="">
+            <p>Finally, based on the results of the Customer Journey Analysis, we, along with developers, will evaluate feasible solutions based on the identified opportunities. Also, we will discuss with customers back and forth to ensure the solutions meet their needs and expectations.</p>
+          </div>
+
+          <button mat-button matStepperPrevious>Back</button>
+        </mat-step>
+      </mat-stepper>
+</div>
+
+  

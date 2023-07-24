@@ -1,0 +1,68 @@
+.web-devlopment{
+    display: flex;
+    width: 100%;
+    height: calc( 100vh - 64px);
+    .description{
+        width: 30%;
+        padding: 40px;
+        .des-title{
+            font-size: 45px;
+            font-weight: 700;
+            line-height: 45px;
+        }
+        
+        .des-intro{
+            padding: 20px 0;
+        }
+
+        .des-icons{
+            .des-icons-option{
+                display: flex;
+                align-items: center;
+
+                .icon-wrapper{
+                    display: flex; 
+                    width: 70px;
+                    height: 70px;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
+
+    .carousels{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .web-dev-1{
+            width: 100%;
+            height:600px;
+            background-image: url('../.././assets/images/web-dev-1.png');
+            background-position: center;
+            background-size: cover;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+
+        .web-dev-2{
+            width: 100%;
+            height:600px;
+            background-image: url('../.././assets/images/web-dev-2.png');
+            background-position: center;
+            background-size:cover;
+            background-repeat: no-repeat;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+
+        .web-dev-intro{
+            background-color: rgba(0, 0, 0, 0.375);
+            border-radius: 5px;
+        }
+    }
+
+}

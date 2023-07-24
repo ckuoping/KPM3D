@@ -1,0 +1,25 @@
+// User Research
+在Moldex3D，我針對CAD和CAE的使用者進行使用者研究。
+Moldex3D的使用者遍布於全球的五大業務區(北美、歐洲、東亞、中國與台灣)，
+透過問卷、訪談和質化分析，我們鎖定使用者的痛點並進一步地歸納產品優化的規格。
+
+Survey
+我們設計線上問卷蒐集用戶的使用者輪廓
+並從用戶的回答中鎖定幾個深入探討的方向
+
+Interview
+為了更貼近使用者的使用情境，我們會前往客戶的公司進行使用者訪談以了解他們使用上的問題
+此外也會觀察客戶使用產品的過程
+
+Data Analysis
+我擅長執行Flow Analysis，將使用者從使用CAD到CAE的流程串聯起來。
+在此同時也會建立使用者的Persona
+
+Customer Journey
+接著我們會將使用流程切分成多段後去談討每一個階段中，使用者的動作(action)、問題(issues)
+、情緒(emotions)和機會(opportunities)
+
+Action Plan
+最後，依據Customer Journey的結果，從機會(opportunies)去評估可行方案和開發的技術。
+// Web Development
+// UIUX Design

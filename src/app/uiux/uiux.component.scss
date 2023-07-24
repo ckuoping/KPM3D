@@ -1,0 +1,35 @@
+.uiux-design{
+    // display: flex;
+    width: 100%;
+    // height: 100vh;
+    .description{
+        .des-title{
+            font-size: 45px;
+            font-weight: 700;
+            line-height: 45px;
+        }
+        
+        .des-intro{
+            padding: 20px; 
+            width: 70%;
+            margin: 0 auto;
+        }
+    }
+
+    .uiux-proj{
+        width: 20rem;
+        .uiux-proj-title{
+            font-weight: 600;
+        }
+    }
+
+
+}
+
+.modal-proj-title{
+    font-weight: 600;
+}
+
+.modal-proj-des{
+    margin: 10px 0;
+}
